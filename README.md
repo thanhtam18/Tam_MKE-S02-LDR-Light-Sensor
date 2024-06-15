@@ -82,7 +82,7 @@ MKE-S02_LDR_Light_Sensor hoặc [tải chương trình mẫu tại đây](https:
 - Thêm Device "MakerEdu Creator" by MakerEduVN
 - Thêm Extension "Upload Mode Broadcast" by mBlock Official
 - Thêm Extension "MakerEdu Hardware" by MakerEduVN
-- Mở [chương trình mẫu tại đây](/mBlock5), kết nối MakerEdu Creator với máy tính và nạp chương trình.
+- Mở [chương trình mẫu tại đây](/https://github.com/thanhtam18/Tam_MKE-S02-LDR-Light-Sensor/tree/main/mBlock5), kết nối MakerEdu Creator với máy tính và nạp chương trình.
 - Kết nối cảm biến với cổng [A1] và màn hình LCD vào cổng [I2C] trên MakerEdu Creator, cấp nguồn qua cổng USB của MakerEdu Creator để thấy chương trình hoạt động.
 
 
@@ -90,7 +90,7 @@ MKE-S02_LDR_Light_Sensor hoặc [tải chương trình mẫu tại đây](https:
 
 - Khởi động phần mềm MakeCode theo hướng dẫn.
 - Cài đặt Extension MakerEdu Hardware trên MadeCode theo đường link sau: [https://github.com/makerlabvn/MakerEdu_Hardware](https://github.com/makerlabvn/MakerEdu_Hardware)
-- Mở [chương trình mẫu tại đây](/microbit), kết nối Micro:bit với máy tính và nạp chương trình.
+- Mở [chương trình mẫu tại đây](/https://github.com/thanhtam18/Tam_MKE-S02-LDR-Light-Sensor/tree/main/microbit), kết nối Micro:bit với máy tính và nạp chương trình.
 - Kết nối mạch Micro:bit với MakerEdu Shield, kết nối cảm biến tại cổng [P1] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của MakerEdu Shield để thấy chương trình hoạt động.
 
 ## Hỗ trợ và liên hệ:
