@@ -1,4 +1,4 @@
-# Cảm biến ánh sáng quang trở MKE-S02 LDR light sensor
+# Cảm biến ánh sáng quang trở MKE-S02 LDR light Sensor
 
 ## Giới thiệu
 
@@ -72,7 +72,7 @@ Ta thấy theo công thức trong hình giá trị Vout sẽ thay đổi theo gi
 ### Hướng dẫn sử dụng với Arduino (Code C)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
-MKE-S02_LDR_Light_Sensor hoặc [tải chương trình mẫu tại đây](https://github.com/thanhtam18/Tam_MKE-S02-LDR-Light-Sensor/tree/main/arduino)
+MKE-S02_LDR_Light_Sensor hoặc [tải chương trình mẫu tại đây](https://github.com/makerlabvn/makerlabvnlib/tree/main/examples/Sensor/MKE-S02_LDR_Sensor)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
 - Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối cảm biến tại cổng [A1] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
 
@@ -82,7 +82,7 @@ MKE-S02_LDR_Light_Sensor hoặc [tải chương trình mẫu tại đây](https:
 - Thêm Device "MakerEdu Creator" by MakerEduVN
 - Thêm Extension "Upload Mode Broadcast" by mBlock Official
 - Thêm Extension "MakerEdu Hardware" by MakerEduVN
-- Mở [chương trình mẫu tại đây](/https://github.com/thanhtam18/Tam_MKE-S02-LDR-Light-Sensor/tree/main/mBlock5), kết nối MakerEdu Creator với máy tính và nạp chương trình.
+- Mở [chương trình mẫu tại đây](https://github.com/makerlabvn/MKE-S02-LDR-Light-Sensor/tree/main/mBlock5), kết nối MakerEdu Creator với máy tính và nạp chương trình.
 - Kết nối cảm biến với cổng [A1] và màn hình LCD vào cổng [I2C] trên MakerEdu Creator, cấp nguồn qua cổng USB của MakerEdu Creator để thấy chương trình hoạt động.
 
 
@@ -90,7 +90,7 @@ MKE-S02_LDR_Light_Sensor hoặc [tải chương trình mẫu tại đây](https:
 
 - Khởi động phần mềm MakeCode theo hướng dẫn.
 - Cài đặt Extension MakerEdu Hardware trên MadeCode theo đường link sau: [https://github.com/makerlabvn/MakerEdu_Hardware](https://github.com/makerlabvn/MakerEdu_Hardware)
-- Mở [chương trình mẫu tại đây](/https://github.com/thanhtam18/Tam_MKE-S02-LDR-Light-Sensor/tree/main/microbit), kết nối Micro:bit với máy tính và nạp chương trình.
+- Mở [chương trình mẫu tại đây](https://github.com/makerlabvn/MKE-S02-LDR-Light-Sensor/tree/main/microbit), kết nối Micro:bit với máy tính và nạp chương trình.
 - Kết nối mạch Micro:bit với MakerEdu Shield, kết nối cảm biến tại cổng [P1] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của MakerEdu Shield để thấy chương trình hoạt động.
 
 ## Hỗ trợ và liên hệ:
