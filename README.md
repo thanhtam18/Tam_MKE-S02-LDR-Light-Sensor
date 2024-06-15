@@ -72,7 +72,7 @@ Ta thấy theo công thức trong hình giá trị Vout sẽ thay đổi theo gi
 ### Hướng dẫn sử dụng với Arduino (Code C)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
-- Mở chương trình mẫu tại File / Examples / MAKERLABVN / Sensor / MKE-S01_Ultrasonic hoặc [tải chương trình mẫu tại đây](https://github.com/thanhtam18/Tam_MKE-S02-LDR-Light-Sensor/tree/main/arduino)
+MKE-S02_LDR_Light_Sensor hoặc [tải chương trình mẫu tại đây](https://github.com/thanhtam18/Tam_MKE-S02-LDR-Light-Sensor/tree/main/arduino)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
 - Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối cảm biến tại cổng [D12,13] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
 
