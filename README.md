@@ -34,20 +34,19 @@ Ta thấy theo công thức trong hình giá trị Vout sẽ thay đổi theo gi
 
 ## Hình ảnh sản phẩm
 
-![MKE_S01_Ultrasonic](/image/MKE_S02_LDR_Sensor_02.jpg)
+![MKE_S02_LDR_Sensor](/image/MKE_S02_LDR_Sensor_02.jpg)
 
-![MKE_S01_Ultrasonic](/image/MKE_S02_LDR_Sensor_03.jpg)
+![MKE_S02_LDR_Sensor](/image/MKE_S02_LDR_Sensor_03.jpg)
 
 ## Kích thước sản phẩm
 
-![MKE_S01_Ultrasonic](/image/MKE_S02_LDR_Sensor_04.jpg)
+![MKE_S02_LDR_Sensor](/image/MKE_S02_LDR_Sensor_04.jpg)
 
 ## Các chân tín hiệu
 
 - GND: Chân cấp nguồn âm 0VDC
-- 5V: Chân cấp nguồn dương 5VDC
-- TRIG: Chân tín hiệu ngõ vào Trigger (Input: 3.3~5VDC)
-- ECHO: Chân tín hiệu ngõ ra Echo (Output: 3.3VDC)
+- 5V:  Chân cấp nguồn dương 5VDC
+- SIG: Chân tín hiệu ngõ ra Analog 0~3.3VDC
 
 ## Hướng dẫn sử dụng
 
@@ -72,7 +71,7 @@ Ta thấy theo công thức trong hình giá trị Vout sẽ thay đổi theo gi
 ### Hướng dẫn sử dụng với Arduino (Code C)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
-MKE-S02_LDR_Light_Sensor hoặc [tải chương trình mẫu tại đây](https://github.com/makerlabvn/makerlabvnlib/tree/main/examples/Sensor/MKE-S02_LDR_Sensor)
+- Mở chương trình mẫu tại File / Examples / MAKERLABVN / Sensor / MKE-S02_LDR_Sensor hoặc [tải chương trình mẫu tại đây](https://github.com/makerlabvn/makerlabvnlib/tree/main/examples/Sensor/MKE-S02_LDR_Sensor)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
 - Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối cảm biến tại cổng [A1] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
 
