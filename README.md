@@ -10,7 +10,7 @@ Cảm biến ánh sáng quang trở MKE-S02 LDR light sensor thuộc hệ sinh t
 
 Cảm biến hoạt động dựa trên sự thay đổi điện trở (độ dẫn điện) của quang trở (LDR-Light Dependent Resistor) với cường độ ánh sáng của môi trường, để chuyển giá trị điện trở thành điện áp để có thể đọc bằng bộ chuyển đổi ADC (Analog to Digital Converter) của mạch xử lý ta mắc mạch cầu phân áp như sau:
 
-![image](https://github.com/thanhtam18/Tam_MKE-S02-LDR-Light-Sensor/assets/140053842/5f8b1cb0-f106-4688-8d9c-111b11a23a8f)
+![image](/image/MKE_S02_LDR_Sensor_01.jpg)
 
 Diễn giải các giá trị:
 
@@ -24,34 +24,30 @@ Ta thấy theo công thức trong hình giá trị Vout sẽ thay đổi theo gi
 ## Thông số kỹ thuật
 
 - Điện áp hoạt động: 5VDC
-- Chuẩn giao tiếp: Digital
-- Điện áp giao tiếp: TTL 3.3VDC / 5VDC
-- Dòng điện hoạt động: 65mA
-- Tần số hoạt động: 40Khz
-- Khoảng cách đo được: 3-200cm
-- Góc quét: 15°
-- Tín hiệu ngõ vào Trigger: 10μs TTL pulse
+- Chuẩn giao tiếp: Analog
+- Điện áp giao tiếp: 0~3.3VDC
+- Đo cường độ ánh sáng bằng quang trở (LDR-Light Dependent Resistor)
 - Sử dụng trực tiếp an toàn với các board mạch giao tiếp ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....
 - Bổ sung thêm các thiết kế ổn định, chống nhiễu.
-- Chuẩn kết nối: connector XH2.54 4Pins
-- Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các mạch điều khiển trung tâm của MakerEdu và MakerEdu Shield.
+- Chuẩn kết nối: connector XH2.54 3Pins
+- Thuộc hệ sinh thái phần cứng Robotics MakerEdu, tương thích tốt nhất khi sử dụng với các //
 
 ## Hình ảnh sản phẩm
 
-![MKE_S01_Ultrasonic](/image/MKE_S01_Ultrasonic_1.jpg)
+![MKE_S01_Ultrasonic](/image/MKE_S02_LDR_Sensor_02.jpg)
 
-![MKE_S01_Ultrasonic](/image/MKE_S01_Ultrasonic_2.jpg)
+![MKE_S01_Ultrasonic](/image/MKE_S02_LDR_Sensor_03.jpg)
 
 ## Kích thước sản phẩm
 
-![MKE_S01_Ultrasonic](/image/MKE_S01_Ultrasonic_4.JPG)
+![MKE_S01_Ultrasonic](/image/MKE_S02_LDR_Sensor_04.jpg)
 
 ## Các chân tín hiệu
 
-- GND:	Chân cấp nguồn âm 0VDC
-- 5V:	Chân cấp nguồn dương 5VDC
-- TRIG:	Chân tín hiệu ngõ vào Trigger (Input: 3.3~5VDC)
-- ECHO:	Chân tín hiệu ngõ ra Echo (Output: 3.3VDC)
+- GND: Chân cấp nguồn âm 0VDC
+- 5V: Chân cấp nguồn dương 5VDC
+- TRIG: Chân tín hiệu ngõ vào Trigger (Input: 3.3~5VDC)
+- ECHO: Chân tín hiệu ngõ ra Echo (Output: 3.3VDC)
 
 ## Hướng dẫn sử dụng
 
