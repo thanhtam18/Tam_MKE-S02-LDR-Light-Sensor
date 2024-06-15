@@ -14,9 +14,9 @@ int percent;
 
 void setup()
 {
-  // Khởi động kết nối Serial UART ở tốc độ 9600 để truyền dữ liệu lên máy tính.
-  // Start the Serial UART connection at 9600 to transfer data to the computer.
-  Serial.begin(9600);
+  // Khởi động kết nối Serial UART ở tốc độ 115200 để truyền dữ liệu lên máy tính.
+  // Start the Serial UART connection at 115200 to transfer data to the computer.
+  Serial.begin(115200);
 }
 
 void loop()
